@@ -1,0 +1,1 @@
+Bartosz Górski gr I 08-04-2022 kolokwium 1, programowanie strukturalne
