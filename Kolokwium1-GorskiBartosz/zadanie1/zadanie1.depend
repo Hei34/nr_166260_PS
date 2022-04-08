@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1649402099 source:d:\nr_166260_ps\kolokwium1-gorskibartosz\zadanie1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+
