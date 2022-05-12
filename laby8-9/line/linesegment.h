@@ -3,10 +3,6 @@
 #include "point.h"
 
 typedef struct LineSegment{
-    int ax;
-    int ay;
-    int bx;
-    int by;
     Point a;
     Point b;
 }LineSegment;

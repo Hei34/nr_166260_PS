@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1652342825 source:d:\nr_166260_ps\laby8-9\line\main.c
+1652343169 source:d:\nr_166260_ps\laby8-9\line\main.c
 	<stdio.h>
 	<stdlib.h>
 	"linesegment.h"
