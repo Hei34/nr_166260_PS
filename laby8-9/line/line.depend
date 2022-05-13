@@ -1,21 +1,21 @@
 # depslib dependency file v1.0
-1652343169 source:d:\nr_166260_ps\laby8-9\line\main.c
+1652430077 source:d:\nr_166260_ps\laby8-9\line\main.c
 	<stdio.h>
 	<stdlib.h>
 	"linesegment.h"
 	"point.h"
 
-1652343161 d:\nr_166260_ps\laby8-9\line\linesegment.h
+1652430195 d:\nr_166260_ps\laby8-9\line\linesegment.h
 	"point.h"
 
-1652337933 d:\nr_166260_ps\laby8-9\line\point.h
+1652426586 d:\nr_166260_ps\laby8-9\line\point.h
 
-1652337933 source:d:\nr_166260_ps\laby8-9\line\point.c
+1652426586 source:d:\nr_166260_ps\laby8-9\line\point.c
 	<stdio.h>
 	<math.h>
 	"point.h"
 
-1652342808 source:d:\nr_166260_ps\laby8-9\line\linesegment.c
+1652427858 source:d:\nr_166260_ps\laby8-9\line\linesegment.c
 	<stdio.h>
 	<math.h>
 	"point.h"

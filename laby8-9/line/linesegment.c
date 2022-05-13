@@ -15,10 +15,10 @@ LineSegment MakeLineSegment(int ax, int ay, int bx, int by)
 LineSegment MakeLineSegmentPP(const Point *a, const Point *b)
 {
     LineSegment temp;
-    temp.ax = a->x;
-    temp.ay = a->y;
-    temp.bx = b->x;
-    temp.by = b->y;
+    temp.a.x = a->x;
+    temp.a.y = a->y;
+    temp.b.x = b->x;
+    temp.b.y = b->y;
     return temp;
 }
 void showLine(const LineSegment *l)
@@ -27,5 +27,15 @@ void showLine(const LineSegment *l)
 }
 double lineLength(const LineSegment *l)
 {
-    return (sqrt(pow( (l->a.x)-(l->b.x) ,2)+pow( (l->a.y)-(l->b.y) ,2)));
+    double x1=l->a.x;
+    double x2=l->b.x;
+    double y1=l->a.y;
+    double y2=l->b.y;
+    double dlugosc=0;
+    dlugosc = sqrt( pow((x2-x1),2) + pow((y2-y1),2));
+    return dlugosc;
+}
+int parallel(const LineSegment *s1,const LineSegment *s2)
+{
+
 }
