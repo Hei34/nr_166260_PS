@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1653639456 source:d:\nr_166260_ps\kolokwium2-gorskibartosz\kolos2\main.c
+	<stdio.h>
+	"pracownik.h"
+	<string.h>
+	<stdbool.h>
+
+1653638253 d:\nr_166260_ps\kolokwium2-gorskibartosz\kolos2\pracownik.h
+	<stdbool.h>
+
+1653639761 source:d:\nr_166260_ps\kolokwium2-gorskibartosz\kolos2\pracownik.c
+	<stdio.h>
+	<string.h>
+	"pracownik.h"
+
