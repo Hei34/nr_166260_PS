@@ -14,12 +14,12 @@
 	"student.h"
 	<string.h>
 
-1654847253 d:\nr_166260_ps\kolokwiumpoprawkowe-bartoszgorski\student.h
+1654848339 d:\nr_166260_ps\kolokwiumpoprawkowe-bartoszgorski\student.h
 	"czlowiek.h"
 
-1654848001 source:d:\nr_166260_ps\kolokwiumpoprawkowe-bartoszgorski\student.c
+1654848901 source:d:\nr_166260_ps\kolokwiumpoprawkowe-bartoszgorski\student.c
 	<stdio.h>
 	<string.h>
-	"czlowiek.h"
 	"student.h"
+	"czlowiek.h"
 

@@ -1,7 +1,7 @@
 #ifndef STUDENT_H
 #define STUDENT_H
 #include "czlowiek.h"
-
+#define MAX_LEN 50
 /*
 Zdefiniuj C-strukturę Student o polach
 * a typu Czlowiek,

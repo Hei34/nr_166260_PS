@@ -10,16 +10,17 @@ int main(int argc, char *argv[])
     //ten kod sluzy przetestowaniu struktury Czlowiek i funkcji z nia zwiazanych - nie zmieniaj go
     Czlowiek przykladowy = init("Jan", "Kowalski", "Konwaliowa 5/10", 90061201801);
     show(&przykladowy);
+    Czlowiek test = init("test","test","test",1111);
 
     //1) Zainicjalizuj strukture Student o nazwie student1 danymi:
     //czlowiek - przykladowy,
     //nr indeksu 12345
     //kierunek informatyka
     Student student1 = initStudent(&przykladowy,12345,"Informatyka");
-    Student student2 = initStudent(&przykladowy,333,"Geodezja");
+    Student student2 = initStudent(&test,333,"Geodezja");
 
     //2) Wypisz informacje nt student1 za pomoca odpowiedniej funkcji
-    showStudent(&student2);
+    showStudent(&student1);
 
     //3) Zmien nazwisko czlowieka na Nowak
     strcpy(przykladowy.nazwisko,"Nowak");

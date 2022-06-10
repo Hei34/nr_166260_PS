@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-#include "czlowiek.h"
 #include "student.h"
-
+#include "czlowiek.h"
 
 // inicjalizuje strukture student
 Student initStudent(const Czlowiek *g, const int nrIndeksu,const char *kierunek) {
