@@ -16,9 +16,10 @@ int main(int argc, char *argv[])
     //nr indeksu 12345
     //kierunek informatyka
     Student student1 = initStudent(&przykladowy,12345,"Informatyka");
+    Student student2 = initStudent(&przykladowy,333,"Geodezja");
 
     //2) Wypisz informacje nt student1 za pomoca odpowiedniej funkcji
-    showStudent(&student1);
+    showStudent(&student2);
 
     //3) Zmien nazwisko czlowieka na Nowak
     strcpy(przykladowy.nazwisko,"Nowak");
@@ -37,10 +38,17 @@ int main(int argc, char *argv[])
 
     //10) W pêtli for do przechodzenia tablicy zamiast indeksów nale¿y u¿yæ wskaŸników, a ka¿dy operator indeksowania nale¿y zastapiæ operatorem dereferencji!!
     // PrzejdŸ tablicê i wype³nij j¹ studentami z damymi wymyslonymi przez Ciebie uzywaj¹c odpowiedniej funkcji.
-
+    for (Student *i = tab; i < tab + 3; ++i)
+    {
+        *i = initStudent(&przykladowy,15345,"Geodezja");
+    }
 
     //11) W pêtli for do przechodzenia tablicy zamiast indeksów nale¿y u¿yæ wskaŸników, a ka¿dy operator indeksowania nale¿y zastapiæ operatorem dereferencji!!
     // Wypisz informacje o wszystkich obiektach typu Student znajduj¹cych sie w tablicy tab
+    for (Student *i = tab; i < tab + 3; ++i)
+    {
+        show(i);
+    }
 
     return 0;
 }

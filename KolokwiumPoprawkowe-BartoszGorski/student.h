@@ -16,7 +16,7 @@ typedef struct Student {
     char kierunek[MAX_LEN-1];
 } Student;
 
-Student initStudent(const Czlowiek *s, const int nrIndeksu, char *kierunek);
+Student initStudent(const Czlowiek *s, const int nrIndeksu,const char *kierunek);
 
 void showStudent(const Student *s);
 

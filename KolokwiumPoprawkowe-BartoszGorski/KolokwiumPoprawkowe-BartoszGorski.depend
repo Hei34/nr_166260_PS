@@ -8,16 +8,16 @@
 	<stdio.h>
 	<stdlib.h>
 
-1654844895 source:d:\nr_166260_ps\kolokwiumpoprawkowe-bartoszgorski\main.c
+1654847942 source:d:\nr_166260_ps\kolokwiumpoprawkowe-bartoszgorski\main.c
 	<stdio.h>
 	"czlowiek.h"
 	"student.h"
 	<string.h>
 
-1654843808 d:\nr_166260_ps\kolokwiumpoprawkowe-bartoszgorski\student.h
+1654847253 d:\nr_166260_ps\kolokwiumpoprawkowe-bartoszgorski\student.h
 	"czlowiek.h"
 
-1654844966 source:d:\nr_166260_ps\kolokwiumpoprawkowe-bartoszgorski\student.c
+1654848001 source:d:\nr_166260_ps\kolokwiumpoprawkowe-bartoszgorski\student.c
 	<stdio.h>
 	<string.h>
 	"czlowiek.h"

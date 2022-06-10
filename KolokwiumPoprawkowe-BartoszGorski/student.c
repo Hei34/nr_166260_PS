@@ -5,9 +5,9 @@
 
 
 // inicjalizuje strukture student
-Student initStudent(const Czlowiek *s, const int nrIndeksu, char *kierunek) {
+Student initStudent(const Czlowiek *g, const int nrIndeksu,const char *kierunek) {
     Student temp;
-    temp.a=*s;
+    temp.a=*g;
     temp.nrIndeksu=nrIndeksu;
     strcpy(temp.kierunek,kierunek);
 }
@@ -24,7 +24,8 @@ Numer indeksu: 12345.
 Kierunek: informatyka.
 */
 void showStudent(const Student *s) {
-    show(&s->a);
-    printf("\nNumer indeksu: %lld",s->nrIndeksu);
+    Czlowiek temp2=s->a;
+    show(&temp2);
+    printf("\nNumer indeksu: %d",s->nrIndeksu);
     printf("\nKierunek: %s",s->kierunek);
 }
