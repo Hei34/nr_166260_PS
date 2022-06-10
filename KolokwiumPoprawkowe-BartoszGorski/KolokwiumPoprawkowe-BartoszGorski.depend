@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1654844963 source:d:\nr_166260_ps\kolokwiumpoprawkowe-bartoszgorski\czlowiek.c
+	<stdio.h>
+	<string.h>
+	"czlowiek.h"
+
+1654843714 d:\nr_166260_ps\kolokwiumpoprawkowe-bartoszgorski\czlowiek.h
+	<stdio.h>
+	<stdlib.h>
+
+1654844895 source:d:\nr_166260_ps\kolokwiumpoprawkowe-bartoszgorski\main.c
+	<stdio.h>
+	"czlowiek.h"
+	"student.h"
+	<string.h>
+
+1654843808 d:\nr_166260_ps\kolokwiumpoprawkowe-bartoszgorski\student.h
+	"czlowiek.h"
+
+1654844966 source:d:\nr_166260_ps\kolokwiumpoprawkowe-bartoszgorski\student.c
+	<stdio.h>
+	<string.h>
+	"czlowiek.h"
+	"student.h"
+
