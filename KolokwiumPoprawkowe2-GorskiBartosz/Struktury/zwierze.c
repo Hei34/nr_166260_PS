@@ -21,3 +21,4 @@ Zwierze tycieZwierzecia(const Zwierze *z,double dodajkg){
     temp.wiek = z->wiek;
     return temp;
 }
+

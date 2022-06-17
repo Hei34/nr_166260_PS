@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1655452960 source:c:\users\local\desktop\nr_166260_ps\kolokwiumpoprawkowe2-gorskibartosz\tablice\tablice\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+

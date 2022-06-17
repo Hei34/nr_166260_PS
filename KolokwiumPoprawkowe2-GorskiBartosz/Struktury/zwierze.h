@@ -8,5 +8,6 @@ typedef struct Zwierze{
 }Zwierze;
 Zwierze initZwierze(const char *gatunek,const double masa,const unsigned int wiek);
 Zwierze tycieZwierzecia(const Zwierze *z,double dodajkg);
+void tycieZwierzecia2(Zwierze *z,double dodajkg);
 void showZwierze(const Zwierze *z);
 #endif
