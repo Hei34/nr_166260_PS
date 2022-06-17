@@ -3,10 +3,11 @@
 	<stdio.h>
 	<stdlib.h>
 
-1655451093 source:c:\users\local\desktop\nr_166260_ps\kolokwiumpoprawkowe2-gorskibartosz\struktury\main.c
+1655451548 source:c:\users\local\desktop\nr_166260_ps\kolokwiumpoprawkowe2-gorskibartosz\struktury\main.c
 	<stdio.h>
 	<stdlib.h>
 	<stdbool.h>
+	<string.h>
 	"zwierze.h"
 	"pies.h"
 
@@ -22,7 +23,7 @@
 	<stdbool.h>
 	"zwierze.h"
 
-1655451223 source:c:\users\local\desktop\nr_166260_ps\kolokwiumpoprawkowe2-gorskibartosz\struktury\pies.c
+1655451622 source:c:\users\local\desktop\nr_166260_ps\kolokwiumpoprawkowe2-gorskibartosz\struktury\pies.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

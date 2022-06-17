@@ -13,14 +13,13 @@ Pies initPies(const Zwierze *z,const char *rasa,const char *imie,const char *dan
     strcpy(temp.rasa,rasa);
     strcpy(temp.imie,imie);
     strcpy(temp.daneWlasciciela,dane);
-
     return temp;
 }
-void showPies(const Pies *z){
-    showZwierze(&z->zwierze);
-    printf("\nRasa: %s",z->rasa);
-    printf("\nImie: %s",z->imie);
-    printf("\nDane w³aœciciela: %s",z->daneWlasciciela);
+void showPies(const Pies *p){
+    showZwierze(&p->zwierze);
+    printf("\nRasa: %s",p->rasa);
+    printf("\nImie: %s",p->imie);
+    printf("\nDane w³aœciciela: %s",p->daneWlasciciela);
 }
 Pies tyciePsa(const Pies *z,double dodajkg){
     Pies temp = *z;
