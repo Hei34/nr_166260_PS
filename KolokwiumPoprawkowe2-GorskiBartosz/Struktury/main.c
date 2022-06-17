@@ -5,15 +5,18 @@
 #include "pies.h"
 int main()
 {
-    char gatunek[]="asd";
-    char imie1[]="maxio";
-    char dane[]="dane - asd12";
-    bool takzaczipowany = true;
-    int maasa=100;
-    unsigned int wiek1=99;
-    Zwierze zwierze1 = initZwierze(gatunek,maasa,wiek1);
-    zwierze1 = tycieZwierzecia(&zwierze1,20);
-    showZwierze(&zwierze1);
-    Pies pies1 = initPies(&zwierze1,gatunek,imie1,dane,takzaczipowany);
+    char gatunek[]="Canisfamiliarus domesticus";
+    char imie1[]="dlugi";
+    char rasa[]="jamknik";
+    char dane[]="Wielki Mi³osnik Psów z Wielkiej Brytanii ale antyczipowiec";
+    bool zaczipowany = false;
+    double maasa=20.45;
+    unsigned int wiek1=15;
+    Zwierze przkladoweZwierze = initZwierze(gatunek,maasa,wiek1);
+    showZwierze(&przkladoweZwierze);
+    przkladoweZwierze = tycieZwierzecia(&przkladoweZwierze,5.25);
+    showZwierze(&przkladoweZwierze);
+    Pies przykladowyNiezaczipowanyPies = initPies(&przkladoweZwierze,rasa,imie1,dane,zaczipowany);
+    showPies(&przykladowyNiezaczipowanyPies);
     return 0;
 }

@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdbool.h>
 #include "pies.h"
-Zwierze initPies(const Zwierze *z,const char *rasa,const char *imie,const char *dane)
+#include "zwierze.h"
+Pies initPies(const Zwierze *z,const char *rasa,const char *imie,const char *dane,const bool czyZaczipowany)
 {
     Pies temp;
     strcpy(temp.zwierze.gatunek,z->gatunek);
@@ -15,15 +17,13 @@ Zwierze initPies(const Zwierze *z,const char *rasa,const char *imie,const char *
     return temp;
 }
 void showPies(const Pies *z){
-    showZwierze(&z->zwierze)
+    showZwierze(&z->zwierze);
     printf("\nRasa: %s",z->rasa);
     printf("\nImie: %s",z->imie);
     printf("\nDane w³aœciciela: %s",z->daneWlasciciela);
 }
-Zwierze tycieZwierzecia(const Zwierze *z,int dodajkg){
-    Zwierze temp;
-    strcpy(temp.gatunek,z->gatunek);
-    temp.masa = z->masa + dodajkg;
-    temp.wiek = z->wiek;
+Pies tyciePsa(const Pies *z,double dodajkg){
+    Pies temp = *z;
+    temp.zwierze.masa = z->zwierze.masa + dodajkg;
     return temp;
 }

@@ -11,7 +11,7 @@ typedef struct Pies{
 }Pies;
 
 Pies initPies(const Zwierze *z,const char *rasa,const char *imie,const char *dane,const bool czyZaczipowany);
-
-void showPies(const Zwierze *z);
+Pies tyciePsa(const Pies *z,double dodajkg);
+void showPies(const Pies *z);
 
 #endif
